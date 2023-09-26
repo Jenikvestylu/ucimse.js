@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vykreslení čáry</title>
+        
+    </head>
+    <body>
+        <h1>Vykreslení čáry</h1>
+        <label for="lineLength">Jak dlouhou čáru chceš vykreslit?</label>
+        <input type="number" id="lineLength" min="1" step="1">
+        <button onclick="generateLine()">Vykreslit</button>
+        <div id="output"></div>
+
+        <script src="lajna.js"></script>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            #output {
+                font-size: 24px;
+            }
+        </style>
+
+    </body>
+    </html>
